@@ -1,3 +1,5 @@
+local builtin = require('telescope.builtin')
+
 local telescopeConfig = require("telescope.config")
 
 -- Clone the default Telescope configuration
@@ -38,3 +40,9 @@ require('telescope').setup{
 
 
 require('telescope').load_extension('fzf')
+
+vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
+vim.keymap.set('n', '<leader>lg', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>gs', builtin.grep_string, {})
+vim.keymap.set('n', '<leader>gb', builtin.buffers, {})
+

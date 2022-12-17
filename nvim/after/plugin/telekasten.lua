@@ -1,3 +1,5 @@
+local builtin = require('telekasten')
+
 local home = vim.fn.expand("~/Documents/MeinBrain/")
 -- NOTE for Windows users:
 -- - don't use Windows
@@ -144,3 +146,13 @@ require('telekasten').setup({
     -- "catimg-previewer" if you have catimg installed
     media_previewer = "telescope-media-files",
 })
+
+vim.keymap.set('n', '<leader>zf', builtin.find_notes, {})
+vim.keymap.set('n', '<leader>zg', builtin.search_notes, {})
+vim.keymap.set('n', '<leader>zz', builtin.follow_link, {})
+vim.keymap.set('n', '<leader>zn', builtin.new_note, {})
+vim.keymap.set('n', '<leader>zf', builtin.find_notes, {})
+vim.keymap.set('n', '<leader>zb', builtin.show_backlinks, {})
+vim.keymap.set('n', '<leader>z#', builtin.show_tags, {})
+vim.keymap.set('n', '<leader>z[', builtin.insert_link, {})
+vim.keymap.set('n', '<leader>z', builtin.panel, {})
