@@ -1,3 +1,4 @@
+vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", "<cmd>Ex<CR>")
 
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
@@ -16,7 +17,7 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 vim.keymap.set("n", "Q", "<nop>")
 vim.keymap.set("i", "jk", "<ESC>")
-
+vim.keymap.set("n", "<leader>h", ":noh<CR>")
 -- vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
 -- vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")

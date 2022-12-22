@@ -45,9 +45,9 @@ return require('packer').startup(function(use)
   use { 'nvim-lualine/lualine.nvim' }
   use { 'renerocksai/telekasten.nvim'}
 
-  use { 'preservim/nerdtree'}
-  use { 'kyazdani42/nvim-web-devicons'}
-  use { 'ryanoasis/vim-devicons'}
-  use { 'frazrepo/vim-rainbow' }
-  use { 'tiagofumo/vim-nerdtree-syntax-highlight' }
+  -- use { 'preservim/nerdtree'}
+  -- use { 'kyazdani42/nvim-web-devicons'}
+  -- use { 'ryanoasis/vim-devicons'}
+  -- use { 'frazrepo/vim-rainbow' }
+  -- use { 'tiagofumo/vim-nerdtree-syntax-highlight' }
 end)
