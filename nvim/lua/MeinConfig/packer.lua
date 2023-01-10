@@ -14,6 +14,10 @@ return require('packer').startup(function(use)
 
     use { 'nvim-telescope/telescope-fzf-native.nvim',  run = 'make' }
     use { "catppuccin/nvim", as = "catppuccin" }
+    use {'folke/tokyonight.nvim'}
+    use 'shaunsingh/nord.nvim'
+    use "EdenEast/nightfox.nvim"
+    -- use 'arcticicestudio/nord-vim'
     use { "nvim-treesitter/nvim-treesitter", run = ':TSUpdate'}
     use { "ThePrimeagen/harpoon"}
 

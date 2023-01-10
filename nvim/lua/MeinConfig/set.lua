@@ -28,4 +28,10 @@ vim.opt.clipboard = 'unnamedplus'
 
 vim.opt.mouse='a'
 
+-- test comments
 vim.g.mapleader = " "
+vim.g.nord_underline = 0
+vim.g.nord_italic_comments = 1
+
+
+
