@@ -45,6 +45,6 @@ if not vim.g.vscode then
         -- Load the colorscheme
         --require('nord').set()
 
-        vim.cmd [[colorscheme nordfox]]
+        vim.cmd [[colorscheme nord]]
 
 end

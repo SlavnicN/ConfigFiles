@@ -2,7 +2,7 @@ if not vim.g.vscode then
     require'nvim-treesitter.configs'.setup {
         -- A list of parser names, or "all"
         ensure_installed = {"javascript", "typescript", "help", "c", "lua",
-        "rust", "solidity", "python", "go" },
+        "rust", "solidity", "python", "go", "vim" },
 
         -- Automatically install missing parsers when entering buffer
         -- Recommendation: set to false if you don't have `tree-sitter` CLI installed locally

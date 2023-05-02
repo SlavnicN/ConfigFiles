@@ -1,7 +1,7 @@
 if not vim.g.vscode then
     local builtin = require('telekasten')
 
-    local home = vim.fn.expand("~/Documents/MeinBrain/")
+    local home = vim.fn.expand("~/Documents/Perso/MeinBrain/")
     -- NOTE for Windows users:
     -- - don't use Windows
     -- - try WSL2 on Windows and pretend you're on Linux

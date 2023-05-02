@@ -4,12 +4,12 @@ if not vim.g.vscode then
     lsp.preset("recommended")
 
     lsp.ensure_installed({
-        'tsserver',
-        'eslint',
-        'gopls',
-        'pyright',
-        'sumneko_lua',
-        'rust_analyzer',
+        --'tsserver',
+        --'eslint',
+        -- 'gopls',
+        --'pyright',
+        -- 'sumneko_lua',
+        --'rust_analyzer',
     })
 
     local cmp = require('cmp')
